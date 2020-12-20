@@ -1,0 +1,51 @@
+@font-face {
+  font-family: CursiveFont;
+  src: url(Cedarville_Cursive/CedarvilleCursive-Regular.ttf);
+  font-weight: 900;
+}
+body {
+  background-color: #bfbfbf; /* For browsers that do not support gradients */
+  /*
+  background-image: linear-gradient(to right,rgba(255,0,0,0), rgba(51, 102, 153,1) , rgba(25, 51, 77,1));
+  */
+}
+ul{
+  font-family: CursiveFont;
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+li {
+  display:inline;
+  margin: 25px;
+}
+
+h1 {
+  font-family: CursiveFont;
+  text-align: center;
+  text-shadow: 2px 2px #d9d9d9;
+
+  margin-top: 250px;
+
+  font-size: 125px;
+}
+/*
+#mainportrait{
+  float: right;
+  margin-top: 100px;
+  margin-right: 25px;
+  padding: 5px;
+  width: 400px;
+
+  border-radius: 100px;
+}
+*/
+p {
+  text-align: center;
+
+
+  font-family: sans-serif;
+  font-size: 25px;
+
+}
