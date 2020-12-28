@@ -1,33 +1,32 @@
 @font-face {
-  font-family: CursiveFont;
-  src: url(Cedarville_Cursive/CedarvilleCursive-Regular.ttf);
-  font-weight: 900;
-}
-body {
-  background-color: #bfbfbf; /* For browsers that do not support gradients */
-  /*
-  background-image: linear-gradient(to right,rgba(255,0,0,0), rgba(51, 102, 153,1) , rgba(25, 51, 77,1));
-  */
-}
-ul{
-  font-family: CursiveFont;
-  margin-top: 50px;
-  font-size: 25px;
-  text-align: center;
+  font-family: MontLight;
+  src: url(Montserrat/Montserrat-Light.ttf);
 }
 
-li {
+@font-face {
+  font-family: MontLightItalic;
+  src: url(Montserrat/Montserrat-LightItalic.ttf);
+}
+
+body {
+  background-color: #000000;
+  color: white
+}
+.menu-bar {
+    font-family: MontLight;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+.menu-item {
   display:inline;
   margin: 25px;
 }
 
-h1 {
-  font-family: CursiveFont;
+#home-page-name {
+  font-family: MontLightItalic;
   text-align: center;
-  text-shadow: 2px 2px #d9d9d9;
-
-  margin-top: 250px;
-
+  margin-top: 200px;
   font-size: 125px;
 }
 /*
@@ -41,11 +40,3 @@ h1 {
   border-radius: 100px;
 }
 */
-p {
-  text-align: center;
-
-
-  font-family: sans-serif;
-  font-size: 25px;
-
-}
