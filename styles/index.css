@@ -1,60 +1,52 @@
 @font-face {
   font-family: MontLight;
-  src: url(Montserrat/Montserrat-Light.ttf);
+  src: url(fonts/Montserrat/Montserrat-Light.ttf);
 }
 
 @font-face {
   font-family: MontLightItalic;
-  src: url(Montserrat/Montserrat-LightItalic.ttf);
+  src: url(fonts/Montserrat/Montserrat-LightItalic.ttf);
 }
 
 body {
   background-color: #000000;
-  color: white
+  color: #FFFFFF
 }
-.menu-bar {
-    font-family: MontLight;
+
+.navbar {
+    text-align: center;
     margin-top: 50px;
     font-size: 25px;
-    text-align: center;
-}
-.button {
-  display:inline;
-  margin: 25px;
+    font-family: MontLight;
 
+    list-style-type: none;
+    color: white;
+}
+
+.navbar, li {
   position: relative;
-  background-color: #111111;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 5px;
-  width: 200px;
-  text-align: center;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  text-decoration: none;
   overflow: hidden;
+
+  display:inline;
+  text-align: center;
+
+  font-size: 26px;
+  margin: 20px;
+
+  padding: 15px;
+  transition: all .5s;
   cursor: pointer;
+
 }
 
-.button:after {
-  content: "";
-  background: #90EE90;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px!important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
+.navbar li:hover{
+  border-color: ;
+  background-color: #7a7a7a;
 }
-
-.button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
+/* Ripple effect */
+.navbar li:active {
+  background-size: 100%;
+  transition: background 0s;
 }
 
 #home-page-name {
@@ -63,11 +55,12 @@ body {
   font-size: 125px;
 
   font-family: MontLightItalic;
+
 }
 
 #intro {
   text-align: center;
-  font-family: MontLightItalic;
+  font-family: MontLight;
 }
 
 /*

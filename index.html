@@ -2,37 +2,56 @@
 <html>
 
   <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=".\styles\index.css">
     <title>Noah Padilla</title>
   </head>
 
   <body>
 
-    <ul class="menu-bar">
-      <li class="button" id="home">Home</li>
-      <li class="button" id="about-me">About Me</li>
-      <li class="button" id="projects">Projects</li>
-      <li class="button" id="contact-me">Contact Me</li>
-    </ul>
-
-    <h1 id = home-page-name>Noah Padilla</h1>
-
-    <!-- <img src=".\images\me-at-outlet.jpg" id="mainportrait" alt="Me"> -->
-
-    <div id="intro">
-      <p> Aspiring software and hardware drone engineer</p>
+    <nav role="navigation" aria-label="main menu">
+      <ul class="navbar">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about-me">about me</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#handles">contact</a></li>
+      </ul>
+    </nav>
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+    <div id="home">
+      <h1 id = home-page-name>Noah Padilla</h1>
+      <!-- <img src=".\images\me-at-outlet.jpg" id="mainportrait" alt="Me"> -->
+      <p id = intro> Aspiring software and hardware drone engineer</p>
     </div>
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+    <div id="about-me">
+      <h2>about me</h2>
+
+      <p>Just a kid who has a dream to create some cool drone software.</p>
+
+    </div>
+
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
 
     <div id="projects">
+      <h2>projects</h2>
 
+      <dl class="project">
+        <dt class="project-name">This website</dt>
+          <dd>I built this website using a few common technologies such as html 5, css3 and javascript</dd>
+        <dt>Tennis Match Predictor</dt>
+          <dd>A machine learning program written in python that can calculate the winner between 2 masters players
+          </dd>
+      </dl>
     </div>
-
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
     <div id="contact-me">
-
+      <h2>connect with me</h2>
     </div>
 
-    <div id="handle">
-
+    <div id="handles">
+      <img src="i" alt="linkedin-icon">
     </div>
 
   </body>
